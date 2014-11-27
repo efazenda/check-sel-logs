@@ -1,0 +1,14 @@
+/var/log/ipmi_sel_logs.log {
+	compress
+	copytruncate
+	monthly
+	missingok
+}
+
+/var/log/check_sel_logs_error.log {
+        compress
+        copytruncate
+        monthly
+        missingok
+}
+
